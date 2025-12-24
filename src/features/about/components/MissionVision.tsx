@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaUsers, FaGlobe } from 'react-icons/fa';
 import { useSlideIn } from '../../../hooks/animations';
+import aboutImage from '../../../assets/img/about/about-img.webp';
 
 export default function MissionVision() {
     const { t } = useTranslation('about');
@@ -72,7 +73,7 @@ export default function MissionVision() {
                         <div
                             className="h-[400px] md:h-[500px] rounded-3xl bg-cover bg-center border border-white/5 shadow-2xl"
                             style={{
-                                backgroundImage: `url('/src/assets/img/about/about-img.webp')`
+                                backgroundImage: `url(${aboutImage})`
                             }}
                         />
                     </motion.div>

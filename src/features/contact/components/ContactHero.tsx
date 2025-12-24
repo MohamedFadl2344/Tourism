@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import heroImage from '../../../assets/img/hero/hero.webp';
 
 export default function ContactHero() {
     const { t } = useTranslation('contact');
@@ -9,7 +10,7 @@ export default function ContactHero() {
             <div
                 className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                    backgroundImage: `url('/images/contactimg/hero.webp')`,
+                    backgroundImage: `url(${heroImage})`,
                 }}
             />
 

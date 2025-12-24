@@ -1,4 +1,5 @@
 import { FaPlane } from 'react-icons/fa';
+import riyadhImage from '../../../../assets/img/fence/Riyadh.webp';
 
 export default function RegisterHero() {
     return (
@@ -7,7 +8,7 @@ export default function RegisterHero() {
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                    backgroundImage: `url('/src/assets/img/fence/Riyadh.webp')`,
+                    backgroundImage: `url(${riyadhImage})`,
                 }}
             />
 

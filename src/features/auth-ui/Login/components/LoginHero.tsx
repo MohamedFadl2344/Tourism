@@ -1,4 +1,5 @@
 import { FaPlane } from 'react-icons/fa';
+import dubaiImage from '../../../../assets/img/fence/Dubai.webp';
 
 export default function LoginHero() {
     return (
@@ -7,7 +8,7 @@ export default function LoginHero() {
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                    backgroundImage: `url('/src/assets/img/fence/Dubai.webp')`,
+                    backgroundImage: `url(${dubaiImage})`,
                 }}
             />
 

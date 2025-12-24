@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import riyadhImage from '../../../assets/img/fence/Riyadh.webp';
 import { FaCalendar, FaArrowLeft } from 'react-icons/fa';
 
 export default function FeaturedPost() {
@@ -55,7 +56,7 @@ export default function FeaturedPost() {
                         <div
                             className="h-64 lg:h-full bg-cover bg-center"
                             style={{
-                                backgroundImage: `url('/src/assets/img/fence/Riyadh.webp')`
+                                backgroundImage: `url(${riyadhImage})`
                             }}
                         />
                     </div>

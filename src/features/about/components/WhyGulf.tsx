@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useSlideIn } from '../../../hooks/animations';
+import aboutImage from '../../../assets/img/about/about-img.webp';
 
 export default function WhyGulf() {
     const { t } = useTranslation('about');
@@ -20,7 +21,7 @@ export default function WhyGulf() {
                         animate={leftImage.animate}
                         className="h-[400px] rounded-3xl bg-cover bg-center border border-white/5 shadow-2xl order-2 lg:order-1"
                         style={{
-                            backgroundImage: `url('/src/assets/img/about/about-img.webp')`
+                            backgroundImage: `url(${aboutImage})`
                         }}
                     />
 

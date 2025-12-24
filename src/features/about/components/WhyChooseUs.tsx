@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaCheckCircle } from 'react-icons/fa';
 import { useSlideIn, useStaggerSlide } from '../../../hooks/animations';
+import aboutImage from '../../../assets/img/about/about-img.webp';
 
 export default function WhyChooseUs() {
     const { t } = useTranslation('about');
@@ -14,7 +15,7 @@ export default function WhyChooseUs() {
         <div
             className="relative bg-cover bg-center bg-no-repeat py-20"
             style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/src/assets/img/about/about-img.webp')`
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(${aboutImage})`
             }}
         >
             <div className="layout-container mx-auto max-w-[1200px] px-4 md:px-10">

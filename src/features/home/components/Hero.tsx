@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FaStar } from 'react-icons/fa';
 import SearchBar from './SearchBar';
 import { useFadeInDown, useFadeInUp } from '../../../hooks/animations';
+import heroImage from '../../../assets/img/hero/hero.webp';
 
 export default function Hero() {
     const { t } = useTranslation('home');
@@ -19,7 +20,7 @@ export default function Hero() {
             <div
                 className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                    backgroundImage: `url('/src/assets/img/hero/hero.webp')`,
+                    backgroundImage: `url(${heroImage})`,
                 }}
             />
 

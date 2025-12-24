@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useFadeInDown, useFadeInUp } from '../../../hooks/animations';
+import heroImage from '../../../assets/img/about/hero.webp';
 
 export default function AboutHero() {
     const { t } = useTranslation('about');
@@ -13,7 +14,7 @@ export default function AboutHero() {
         <div
             className="relative bg-cover bg-center bg-no-repeat py-32 md:py-40"
             style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/img/about/hero.webp')`
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${heroImage})`
             }}
         >
             <div className="layout-container mx-auto max-w-[1200px] px-4 md:px-10">

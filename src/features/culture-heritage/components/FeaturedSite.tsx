@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { FaMapMarkerAlt, FaClock, FaUsers } from 'react-icons/fa';
+import siteImage from '../../../assets/img/CultureHeritage/img1.webp';
 
 export default function FeaturedSite() {
     const { t } = useTranslation('culture');
@@ -23,7 +24,7 @@ export default function FeaturedSite() {
                     <div className="relative h-[400px] rounded-2xl overflow-hidden group">
                         <div
                             className="absolute inset-0 bg-cover bg-center group-hover:scale-110 transition duration-700"
-                            style={{ backgroundImage: `url('/src/assets/img/CultureHeritage/img1.webp')` }}
+                            style={{ backgroundImage: `url(${siteImage})` }}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                         <div className="absolute bottom-6 right-6 bg-[#D4AF37] text-black px-4 py-2 rounded-lg font-bold text-sm">

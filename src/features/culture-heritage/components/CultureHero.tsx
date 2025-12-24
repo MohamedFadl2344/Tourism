@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useFadeInDown, useFadeInUp } from '../../../hooks/animations';
+import heroImage from '../../../assets/img/CultureHeritage/hero.webp';
 
 export default function CultureHero() {
     const { t } = useTranslation('culture');
@@ -15,7 +16,7 @@ export default function CultureHero() {
             <div
                 className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                    backgroundImage: `url('/src/assets/img/CultureHeritage/hero.webp')`,
+                    backgroundImage: `url(${heroImage})`,
                 }}
             />
 

@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { FaUser, FaEnvelope, FaLock, FaCheckCircle, FaApple, FaPlane } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { Link } from 'react-router-dom';
+import cultureImage from '../../../assets/img/CultureHeritage/img2.webp';
 
 export default function RegisterPage() {
     const { t } = useTranslation('register');
@@ -165,7 +166,7 @@ export default function RegisterPage() {
                         <div
                             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
                             style={{
-                                backgroundImage: `url('/src/assets/img/CultureHeritage/img2.webp')`,
+                                backgroundImage: `url(${cultureImage})`,
                             }}
                         />
 

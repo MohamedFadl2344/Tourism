@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import heroImage from '../../../assets/img/hero/hero.webp';
 
 export default function BlogHero() {
     const { t } = useTranslation('blog');
@@ -7,7 +8,7 @@ export default function BlogHero() {
         <div
             className="relative bg-cover bg-center bg-no-repeat py-24 md:py-32"
             style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/src/assets/img/hero/hero.webp')`
+                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${heroImage})`
             }}
         >
             <div className="layout-container mx-auto max-w-[1200px] px-4 md:px-10">
