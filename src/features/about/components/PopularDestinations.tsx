@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaArrowLeft } from 'react-icons/fa';
 import { useFadeInUp, useStaggerSlide } from '../../../hooks/animations';
+import { images as imgAssets } from '../../../assets/images';
 
 interface DestinationCardProps {
     image: string;
@@ -41,10 +42,10 @@ export default function PopularDestinations() {
     }>;
 
     const images = [
-        '/src/assets/img/fence/Dubai.webp',
-        '/src/assets/img/fence/Riyadh.webp',
-        '/src/assets/img/fence/Doha.webp',
-        '/src/assets/img/fence/Muscat.webp'
+        imgAssets.fence.dubai,
+        imgAssets.fence.riyadh,
+        imgAssets.fence.doha,
+        imgAssets.fence.muscat
     ];
 
     const header = useFadeInUp({ duration: 0.7, delay: 0.1, threshold: 0.3 });

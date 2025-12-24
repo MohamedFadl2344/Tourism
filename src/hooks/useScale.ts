@@ -54,7 +54,7 @@ export function useScale(options: UseScaleOptions = {}) {
         delay = 0,
         enabled = true,
         once = true,
-        threshold = 0.1,
+        threshold = 0.01,
         withFade = true
     } = options;
 
@@ -96,7 +96,7 @@ export function useZoomIn(options: UseScaleOptions = {}) {
         delay = 0,
         enabled = true,
         once = true,
-        threshold = 0.1,
+        threshold = 0.01,
         withFade = true
     } = options;
 
@@ -138,7 +138,7 @@ export function usePulse(options: UseScaleOptions = {}) {
         delay = 0,
         enabled = true,
         once = false, // Pulse usually repeats
-        threshold = 0.1
+        threshold = 0.01
     } = options;
 
     const ref = useRef(null);
@@ -179,7 +179,7 @@ export function useStaggerScale(options: UseScaleOptions & { staggerDelay?: numb
         delay = 0,
         enabled = true,
         once = true,
-        threshold = 0.1,
+        threshold = 0.01,
         withFade = true,
         staggerDelay = 0.1
     } = options;

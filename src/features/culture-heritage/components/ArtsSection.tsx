@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { images } from '../../../assets/images';
 
 interface ArtCardProps {
     image: string;
@@ -32,22 +33,22 @@ export default function ArtsSection() {
 
     const arts = [
         {
-            image: '/src/assets/img/fence/Muscat.webp',
+            image: images.fence.muscat,
             titleKey: 'arts.items.museums.title',
             descriptionKey: 'arts.items.museums.description',
         },
         {
-            image: '/src/assets/img/CultureHeritage/img2.webp',
+            image: images.culture.image2,
             titleKey: 'arts.items.exhibitions.title',
             descriptionKey: 'arts.items.exhibitions.description',
         },
         {
-            image: '/src/assets/img/Activities/image.webp',
+            image: images.activities.image1,
             titleKey: 'arts.items.culturalCenters.title',
             descriptionKey: 'arts.items.culturalCenters.description',
         },
         {
-            image: '/src/assets/img/Activities/image2.webp',
+            image: images.activities.image2,
             titleKey: 'arts.items.traditionalArts.title',
             descriptionKey: 'arts.items.traditionalArts.description',
         },

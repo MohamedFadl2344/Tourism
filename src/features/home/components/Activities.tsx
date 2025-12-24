@@ -1,13 +1,14 @@
 import ActivityCard from './ActivityCard';
+import { images } from '../../../assets/images';
 
 const activities = [
     {
-        image: '/src/assets/img/Activities/image.webp',
+        image: images.activities.image1,
         title: 'تجوّل الصحاري الخلابة',
         description: 'عش تجربة فريدة من نوعها في قلب الصحراء العربية مع أنشطة مثيرة كالتزلج على الرمال وركوب الجمال.',
     },
     {
-        image: '/src/assets/img/Activities/image2.webp',
+        image: images.activities.image2,
         title: 'رحلات السفاري والتخييم',
         description: 'استمتع بليلة لا تُنسى تحت النجوم مع عشاء تقليدي وعروض ترفيهية في قلب الصحراء.',
     },

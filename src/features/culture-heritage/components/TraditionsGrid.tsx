@@ -1,23 +1,24 @@
 import { useTranslation } from 'react-i18next';
 import HeritageCard from './HeritageCard';
+import { images } from '../../../assets/images';
 
 export default function TraditionsGrid() {
     const { t } = useTranslation('culture');
 
     const traditions = [
         {
-            image: '/src/assets/img/fence/Dubai.webp',
+            image: images.fence.dubai,
             titleKey: 'traditions.items.calligraphy.title',
             descriptionKey: 'traditions.items.calligraphy.description',
             badgeKey: 'traditions.items.calligraphy.badge',
         },
         {
-            image: '/src/assets/img/fence/Riyadh.webp',
+            image: images.fence.riyadh,
             titleKey: 'traditions.items.shipBuilding.title',
             descriptionKey: 'traditions.items.shipBuilding.description',
         },
         {
-            image: '/src/assets/img/fence/Doha.webp',
+            image: images.fence.doha,
             titleKey: 'traditions.items.handicrafts.title',
             descriptionKey: 'traditions.items.handicrafts.description',
             badgeKey: 'traditions.items.handicrafts.badge',

@@ -2,19 +2,20 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import ExperienceCard from './ExperienceCard';
 import { useFadeInUp, useStaggerSlide } from '../../../hooks/animations';
+import { images } from '../../../assets/images';
 
 export default function Experiences() {
     const { t } = useTranslation('home');
 
     const experiences = [
         {
-            image: '/src/assets/img/Activities/image.webp',
+            image: images.activities.image1,
             category: t('experiences.safari.category'),
             title: t('experiences.safari.title'),
             description: t('experiences.safari.description'),
         },
         {
-            image: '/src/assets/img/Activities/image2.webp',
+            image: images.activities.image2,
             category: t('experiences.culinary.category'),
             title: t('experiences.culinary.title'),
             description: t('experiences.culinary.description'),

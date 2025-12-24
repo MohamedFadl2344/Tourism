@@ -43,7 +43,7 @@ export function useFadeIn(options: UseFadeInOptions = {}) {
         delay = 0,
         enabled = true,
         once = true,
-        threshold = 0.1
+        threshold = 0.01
     } = options;
 
     const ref = useRef(null);
@@ -84,7 +84,7 @@ export function useFadeInUp(options: UseFadeInOptions = {}) {
         delay = 0,
         enabled = true,
         once = true,
-        threshold = 0.1
+        threshold = 0.01
     } = options;
 
     const ref = useRef(null);
@@ -123,7 +123,7 @@ export function useFadeInDown(options: UseFadeInOptions = {}) {
         delay = 0,
         enabled = true,
         once = true,
-        threshold = 0.1
+        threshold = 0.01
     } = options;
 
     const ref = useRef(null);

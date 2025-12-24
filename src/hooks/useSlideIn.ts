@@ -56,7 +56,7 @@ export function useSlideIn(options: UseSlideInOptions = {}) {
         delay = 0,
         enabled = true,
         once = true,
-        threshold = 0.1
+        threshold = 0.01
     } = options;
 
     const ref = useRef(null);
@@ -119,7 +119,7 @@ export function useStaggerSlide(options: UseSlideInOptions & { staggerDelay?: nu
         delay = 0,
         enabled = true,
         once = true,
-        threshold = 0.1,
+        threshold = 0.01,
         staggerDelay = 0.1
     } = options;
 

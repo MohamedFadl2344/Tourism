@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import EventCard from './EventCard';
 import { useFadeInUp, useStaggerScale } from '../../../hooks/animations';
+import { images } from '../../../assets/images';
 
 type CategoryType = 'all' | 'cultural' | 'entertainment' | 'adventure' | 'sports';
 
@@ -20,7 +21,7 @@ export default function EventsGrid() {
 
     const events = [
         {
-            image: '/src/assets/img/fence/Dubai.webp',
+            image: images.fence.dubai,
             title: t('events.shoppingFestival.title'),
             date: t('events.shoppingFestival.date'),
             location: t('events.shoppingFestival.location'),
@@ -31,7 +32,7 @@ export default function EventsGrid() {
             category: 'entertainment' as CategoryType,
         },
         {
-            image: '/src/assets/img/fence/Riyadh.webp',
+            image: images.fence.riyadh,
             title: t('events.heritageTour.title'),
             date: t('events.heritageTour.date'),
             location: t('events.heritageTour.location'),
@@ -41,7 +42,7 @@ export default function EventsGrid() {
             category: 'cultural' as CategoryType,
         },
         {
-            image: '/src/assets/img/fence/Doha.webp',
+            image: images.fence.doha,
             title: t('events.desertNight.title'),
             date: t('events.desertNight.date'),
             location: t('events.desertNight.location'),
@@ -52,7 +53,7 @@ export default function EventsGrid() {
             category: 'adventure' as CategoryType,
         },
         {
-            image: '/src/assets/img/fence/Muscat.webp',
+            image: images.fence.muscat,
             title: t('events.diving.title'),
             date: t('events.diving.date'),
             location: t('events.diving.location'),
@@ -62,7 +63,7 @@ export default function EventsGrid() {
             category: 'adventure' as CategoryType,
         },
         {
-            image: '/src/assets/img/Activities/image.webp',
+            image: images.activities.image1,
             title: t('events.craftsMarket.title'),
             date: t('events.craftsMarket.date'),
             location: t('events.craftsMarket.location'),
@@ -72,7 +73,7 @@ export default function EventsGrid() {
             category: 'cultural' as CategoryType,
         },
         {
-            image: '/src/assets/img/Activities/image2.webp',
+            image: images.activities.image2,
             title: t('events.marathon.title'),
             date: t('events.marathon.date'),
             location: t('events.marathon.location'),
@@ -88,8 +89,8 @@ export default function EventsGrid() {
         ? events
         : events.filter(event => event.category === activeCategory);
 
-    const header = useFadeInUp({ duration: 0.7, delay: 0.1, threshold: 0.3 });
-    const cards = useStaggerScale({ initialScale: 0.9, duration: 0.6, staggerDelay: 0.1, threshold: 0.3 });
+    const header = useFadeInUp({ duration: 0.7, delay: 0.1, threshold: 0.05 });
+    const cards = useStaggerScale({ initialScale: 0.9, duration: 0.6, staggerDelay: 0.1, threshold: 0.05 });
 
     return (
         <div className="py-16 bg-[#0c0a09]">

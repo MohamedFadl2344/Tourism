@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import BlogCard from './BlogCard';
+import { images as imgAssets } from '../../../assets/images';
 
 export default function BlogGrid() {
     const { t } = useTranslation('blog');
@@ -12,12 +13,12 @@ export default function BlogGrid() {
     }>;
 
     const images = [
-        '/src/assets/img/CultureHeritage/img1.webp',
-        '/src/assets/img/CultureHeritage/img2.webp',
-        '/src/assets/img/fence/Dubai.webp',
-        '/src/assets/img/fence/Riyadh.webp',
-        '/src/assets/img/fence/Doha.webp',
-        '/src/assets/img/fence/Muscat.webp'
+        imgAssets.culture.image1,
+        imgAssets.culture.image2,
+        imgAssets.fence.dubai,
+        imgAssets.fence.riyadh,
+        imgAssets.fence.doha,
+        imgAssets.fence.muscat
     ];
 
     const readTimes = ['5', '7', '6', '4', '5', '6'];

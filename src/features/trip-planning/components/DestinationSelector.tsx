@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { images } from '../../../assets/images';
 
 interface DestinationOption {
     id: string;
@@ -13,12 +14,12 @@ export default function DestinationSelector() {
     const [selectedDestinations, setSelectedDestinations] = useState<string[]>([]);
 
     const destinations: DestinationOption[] = [
-        { id: 'dubai', nameKey: 'destinationSelector.destinations.dubai.name', typeKey: 'destinationSelector.destinations.dubai.type', image: '/src/assets/img/fence/Dubai.webp' },
-        { id: 'riyadh', nameKey: 'destinationSelector.destinations.riyadh.name', typeKey: 'destinationSelector.destinations.riyadh.type', image: '/src/assets/img/fence/Riyadh.webp' },
-        { id: 'doha', nameKey: 'destinationSelector.destinations.doha.name', typeKey: 'destinationSelector.destinations.doha.type', image: '/src/assets/img/fence/Doha.webp' },
-        { id: 'muscat', nameKey: 'destinationSelector.destinations.muscat.name', typeKey: 'destinationSelector.destinations.muscat.type', image: '/src/assets/img/fence/Muscat.webp' },
-        { id: 'kuwait', nameKey: 'destinationSelector.destinations.kuwait.name', typeKey: 'destinationSelector.destinations.kuwait.type', image: '/src/assets/img/Activities/image.webp' },
-        { id: 'desert', nameKey: 'destinationSelector.destinations.desert.name', typeKey: 'destinationSelector.destinations.desert.type', image: '/src/assets/img/Activities/image2.webp' },
+        { id: 'dubai', nameKey: 'destinationSelector.destinations.dubai.name', typeKey: 'destinationSelector.destinations.dubai.type', image: images.fence.dubai },
+        { id: 'riyadh', nameKey: 'destinationSelector.destinations.riyadh.name', typeKey: 'destinationSelector.destinations.riyadh.type', image: images.fence.riyadh },
+        { id: 'doha', nameKey: 'destinationSelector.destinations.doha.name', typeKey: 'destinationSelector.destinations.doha.type', image: images.fence.doha },
+        { id: 'muscat', nameKey: 'destinationSelector.destinations.muscat.name', typeKey: 'destinationSelector.destinations.muscat.type', image: images.fence.muscat },
+        { id: 'kuwait', nameKey: 'destinationSelector.destinations.kuwait.name', typeKey: 'destinationSelector.destinations.kuwait.type', image: images.activities.image1 },
+        { id: 'desert', nameKey: 'destinationSelector.destinations.desert.name', typeKey: 'destinationSelector.destinations.desert.type', image: images.activities.image2 },
     ];
 
     const toggleDestination = (id: string) => {
@@ -45,8 +46,8 @@ export default function DestinationSelector() {
                         key={dest.id}
                         onClick={() => toggleDestination(dest.id)}
                         className={`relative h-32 rounded-xl overflow-hidden border-2 transition ${selectedDestinations.includes(dest.id)
-                                ? 'border-[#D4AF37] shadow-[0_0_20px_rgba(212,175,55,0.3)]'
-                                : 'border-white/10 hover:border-white/30'
+                            ? 'border-[#D4AF37] shadow-[0_0_20px_rgba(212,175,55,0.3)]'
+                            : 'border-white/10 hover:border-white/30'
                             }`}
                     >
                         <div

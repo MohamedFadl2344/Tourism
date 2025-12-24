@@ -3,32 +3,33 @@ import { motion } from 'framer-motion';
 import { FaArrowLeft } from 'react-icons/fa';
 import DestinationCard from './DestinationCard';
 import { useFadeInUp, useStaggerSlide } from '../../../hooks/animations';
+import { images } from '../../../assets/images';
 
 export default function Destinations() {
     const { t } = useTranslation('home');
 
     const destinations = [
         {
-            image: '/src/assets/img/fence/Dubai.webp',
+            image: images.fence.dubai,
             city: t('destinations.cities.dubai.name'),
             country: t('destinations.cities.dubai.country'),
             rating: 4.9,
             description: t('destinations.cities.dubai.description'),
         },
         {
-            image: '/src/assets/img/fence/Riyadh.webp',
+            image: images.fence.riyadh,
             city: t('destinations.cities.riyadh.name'),
             country: t('destinations.cities.riyadh.country'),
             description: t('destinations.cities.riyadh.description'),
         },
         {
-            image: '/src/assets/img/fence/Doha.webp',
+            image: images.fence.doha,
             city: t('destinations.cities.doha.name'),
             country: t('destinations.cities.doha.country'),
             description: t('destinations.cities.doha.description'),
         },
         {
-            image: '/src/assets/img/fence/Muscat.webp',
+            image: images.fence.muscat,
             city: t('destinations.cities.muscat.name'),
             country: t('destinations.cities.muscat.country'),
             description: t('destinations.cities.muscat.description'),

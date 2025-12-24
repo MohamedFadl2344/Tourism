@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { FaTh, FaList } from 'react-icons/fa';
 import TourismCard from './TourismCard';
 import { useFadeInUp, useStaggerScale } from '../../../hooks/animations';
+import { images } from '../../../assets/images';
 
 type ViewMode = 'grid' | 'list';
 
@@ -13,7 +14,7 @@ export default function TourismGrid() {
 
     const destinations = [
         {
-            image: '/src/assets/img/fence/Riyadh.webp',
+            image: images.fence.riyadh,
             city: t('destinations.riyadh.name'),
             rating: 4.9,
             description: t('destinations.riyadh.description'),
@@ -21,35 +22,35 @@ export default function TourismGrid() {
             badge: t('card.badges.popular'),
         },
         {
-            image: '/src/assets/img/fence/Dubai.webp',
+            image: images.fence.dubai,
             city: t('destinations.dubai.name'),
             rating: 4.8,
             description: t('destinations.dubai.description'),
             price: 1500,
         },
         {
-            image: '/src/assets/img/fence/Doha.webp',
+            image: images.fence.doha,
             city: t('destinations.doha.name'),
             rating: 4.7,
             description: t('destinations.doha.description'),
             price: 1100,
         },
         {
-            image: '/src/assets/img/fence/Muscat.webp',
+            image: images.fence.muscat,
             city: t('destinations.muscat.name'),
             rating: 4.6,
             description: t('destinations.muscat.description'),
             price: 950,
         },
         {
-            image: '/src/assets/img/Activities/image.webp',
+            image: images.activities.image1,
             city: t('destinations.manama.name'),
             rating: 4.5,
             description: t('destinations.manama.description'),
             price: 850,
         },
         {
-            image: '/src/assets/img/Activities/image2.webp',
+            image: images.activities.image2,
             city: t('destinations.desert.name'),
             rating: 4.8,
             description: t('destinations.desert.description'),
@@ -58,8 +59,8 @@ export default function TourismGrid() {
         },
     ];
 
-    const header = useFadeInUp({ duration: 0.7, delay: 0.1, threshold: 0.3 });
-    const cards = useStaggerScale({ initialScale: 0.9, duration: 0.6, staggerDelay: 0.1, threshold: 0.3 });
+    const header = useFadeInUp({ duration: 0.7, delay: 0.1, threshold: 0.05 });
+    const cards = useStaggerScale({ initialScale: 0.9, duration: 0.6, staggerDelay: 0.1, threshold: 0.05 });
 
     return (
         <div className="py-16 bg-[#0c0a09]">
