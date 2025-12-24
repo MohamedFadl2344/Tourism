@@ -1,0 +1,93 @@
+{
+    "hero": {
+        "badge": "Enjoy the Best Events",
+        "title": "Events and Activities",
+        "subtitle": "Enjoy the most beautiful cultural, entertainment, and adventure events in the heart of the Arabian Gulf. Choose your perfect experience and book now!"
+    },
+    "filters": {
+        "search": {
+            "label": "Search",
+            "placeholder": "Search for event, location..."
+        },
+        "location": {
+            "label": "City",
+            "placeholder": "All Cities",
+            "options": {
+                "riyadh": "Riyadh",
+                "dubai": "Dubai",
+                "doha": "Doha",
+                "muscat": "Muscat"
+            }
+        },
+        "date": {
+            "label": "Date",
+            "placeholder": "Anytime",
+            "options": {
+                "today": "Today",
+                "week": "This Week",
+                "month": "This Month",
+                "upcoming": "Upcoming"
+            }
+        },
+        "searchButton": "Search"
+    },
+    "grid": {
+        "available": "Available Events",
+        "categories": {
+            "all": "All",
+            "cultural": "Cultural",
+            "entertainment": "Entertainment",
+            "adventure": "Adventures",
+            "sports": "Sports"
+        }
+    },
+    "card": {
+        "bookNow": "Book Now",
+        "priceFrom": "Price starts from",
+        "currency": "SAR",
+        "available": "available",
+        "badges": {
+            "soon": "Coming Soon",
+            "popular": "Most Popular",
+            "sports": "Sports"
+        }
+    },
+    "events": {
+        "shoppingFestival": {
+            "title": "Shopping Festival",
+            "date": "January 15 - February 20",
+            "location": "Dubai, UAE",
+            "description": "Enjoy the biggest shopping festival in the region with exclusive offers and discounts on the best international brands."
+        },
+        "heritageTour": {
+            "title": "Nabataean Heritage Tour",
+            "date": "February 10",
+            "location": "AlUla, Saudi Arabia",
+            "description": "An exploratory trip to Madain Saleh and ancient Nabataean monuments with specialized guides in history and archaeology."
+        },
+        "desertNight": {
+            "title": "Starry Night in the Desert",
+            "date": "January 25",
+            "location": "Desert, Qatar",
+            "description": "A unique camping experience under the stars with traditional dinner and authentic Bedouin artistic performances."
+        },
+        "diving": {
+            "title": "Diving Trips",
+            "date": "February 5",
+            "location": "Muscat, Oman",
+            "description": "Discover the beauty of marine life in the depths of the Sea of Oman with professional trainers and modern equipment."
+        },
+        "craftsMarket": {
+            "title": "Handicrafts Market",
+            "date": "February 12",
+            "location": "Manama, Bahrain",
+            "description": "Exhibition of traditional handicrafts and folk arts with interactive workshops for visitors."
+        },
+        "marathon": {
+            "title": "Desert Marathon",
+            "date": "February 18",
+            "location": "Riyadh, Saudi Arabia",
+            "description": "Marathon race in the heart of the desert with various tracks for professionals and amateurs."
+        }
+    }
+}

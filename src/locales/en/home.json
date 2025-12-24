@@ -1,0 +1,116 @@
+{
+    "logo": {
+        "tourism": "Gulf",
+        "gulf": "Tourism"
+    },
+    "navbar": {
+        "home": "Home",
+        "destinations": "Destinations",
+        "events": "Events",
+        "culture": "Culture & Heritage",
+        "tripPlanning": "Trip Planning",
+        "login": "Login"
+    },
+    "hero": {
+        "badge": "Your Premier Destination for Luxury Tourism",
+        "title": "Discover the Magic of",
+        "titleHighlight": "the Arabian Gulf",
+        "subtitle": "An exceptional journey blending the heritage of the past with the luxury of the present. Enjoy the beauty of golden sands, azure seas, and authentic hospitality.",
+        "searchPlaceholder": "Where do you want to go?",
+        "datePlaceholder": "Travel Date",
+        "searchButton": "Search"
+    },
+    "features": {
+        "heritage": {
+            "title": "Rich Heritage & Culture",
+            "description": "Discover the history of ancient civilizations and traditional markets that pulse with life."
+        },
+        "luxury": {
+            "title": "Unmatched Luxury",
+            "description": "Enjoy a royal stay in the finest international hotels and resorts in the region."
+        },
+        "adventure": {
+            "title": "Natural Adventures",
+            "description": "From diving in the depths of turquoise seas to camping in the heart of the desert."
+        }
+    },
+    "destinations": {
+        "badge": "Explore the Region",
+        "title": "Top Tourist Destinations",
+        "subtitle": "Favorite destinations for travelers reflecting the diversity and beauty of the Arabian Gulf.",
+        "viewAll": "View All Destinations",
+        "cities": {
+            "dubai": {
+                "name": "Dubai",
+                "country": "United Arab Emirates",
+                "description": "Global destination for shopping and entertainment"
+            },
+            "riyadh": {
+                "name": "Riyadh",
+                "country": "Saudi Arabia",
+                "description": "The vibrant heart of the Kingdom"
+            },
+            "doha": {
+                "name": "Doha",
+                "country": "Qatar",
+                "description": "Where heritage meets modernity"
+            },
+            "muscat": {
+                "name": "Muscat",
+                "country": "Sultanate of Oman",
+                "description": "The serene jewel of the Gulf"
+            }
+        }
+    },
+    "experiences": {
+        "badge": "Unforgettable Experiences",
+        "title": "Activities Designed to Match Your Refined Taste",
+        "subtitle": "Whether you're seeking adventure, relaxation, or cultural exploration, we've curated the best for you.",
+        "safari": {
+            "category": "Adventures",
+            "title": "Safari & Camping Trips",
+            "description": "Experience authentic Bedouin life with modern comforts under a star-studded sky in the heart of the golden desert."
+        },
+        "culinary": {
+            "category": "Culture & Tasting",
+            "title": "Taste Local Flavors",
+            "description": "A sensory tour through the finest restaurants and traditional markets to taste authentic Arabic coffee and distinctive Gulf dishes."
+        },
+        "discoverMore": "Discover More"
+    },
+    "subscription": {
+        "badge": "Exclusive Member Offers",
+        "title": "Plan Your Next Trip with Ease and Security",
+        "description": "Enjoy a seamless booking experience with diverse and secure payment options. We support all local and international payment methods to ensure your comfort.",
+        "paymentTitle": "Supported Payment Methods with Complete Security:",
+        "bankTransfer": "Bank Transfer",
+        "packageTitle": "Golden Traveler Package",
+        "packageSubtitle": "Best value for travel enthusiasts",
+        "mostPopular": "Most Popular",
+        "features": {
+            "priority": "Priority booking at luxury hotels",
+            "discount": "20% discount on seasonal trips",
+            "concierge": "Private concierge service 24/7"
+        },
+        "subscribeButton": "Subscribe Now",
+        "guarantee": "Money-back guarantee within 14 days"
+    },
+    "footer": {
+        "description": "Your digital gateway to discovering the treasures of the Arabian Gulf. We offer you the best destinations, events, and tourism experiences with international standards.",
+        "quickLinks": {
+            "title": "Quick Links",
+            "aboutGulf": "About Us",
+            "destinations": "Tourist Destinations",
+            "blog": "Travel Blog",
+            "faq": "FAQ"
+        },
+        "support": {
+            "title": "Support & Help",
+            "contact": "Contact Us",
+            "privacy": "Privacy Policy",
+            "terms": "Terms & Conditions",
+            "help": "Help Center"
+        },
+        "copyright": "Gulf Tourism. All rights reserved."
+    }
+}

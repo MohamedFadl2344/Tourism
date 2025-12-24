@@ -1,0 +1,99 @@
+{
+    "hero": {
+        "badge": "Your Dream Trip Starts Here",
+        "title": "Design Your",
+        "titleHighlight": "Perfect Trip",
+        "subtitle": "Choose your favorite destinations, select travel dates, and enjoy a customized tourism experience that suits all your needs and desires"
+    },
+    "destinationSelector": {
+        "step": "1",
+        "title": "Choose Destination",
+        "subtitle": "Select your favorite cities and places",
+        "destinations": {
+            "dubai": {
+                "name": "Dubai",
+                "type": "City"
+            },
+            "riyadh": {
+                "name": "Riyadh",
+                "type": "City"
+            },
+            "doha": {
+                "name": "Doha",
+                "type": "City"
+            },
+            "muscat": {
+                "name": "Muscat",
+                "type": "City"
+            },
+            "kuwait": {
+                "name": "Kuwait",
+                "type": "Gulf"
+            },
+            "desert": {
+                "name": "Desert",
+                "type": "Nature"
+            }
+        }
+    },
+    "tripDetails": {
+        "step": "2",
+        "title": "When do you want to travel?",
+        "subtitle": "Set start and end dates for travelers",
+        "startDate": {
+            "label": "Arrival Date",
+            "placeholder": "mm/dd/yyyy"
+        },
+        "endDate": {
+            "label": "Departure Date",
+            "placeholder": "mm/dd/yyyy"
+        },
+        "travelers": {
+            "label": "Number of Travelers",
+            "note": "Minimum for travelers and children"
+        }
+    },
+    "interests": {
+        "step": "3",
+        "title": "Your Interests",
+        "subtitle": "What would you like to do on your trip?",
+        "items": {
+            "shopping": "Shopping & Markets",
+            "tours": "Tours & Mountains",
+            "museums": "Museums & Galleries",
+            "beaches": "Beaches & Seas",
+            "heritage": "Heritage & Culture",
+            "entertainment": "Entertainment & Fun"
+        }
+    },
+    "budget": {
+        "step": "4",
+        "title": "Budget Level",
+        "subtitle": "Choose the appropriate spending level",
+        "types": {
+            "economy": "Economy",
+            "standard": "Standard",
+            "luxury": "Luxury"
+        },
+        "estimatedBudget": "Estimated Budget Per Person",
+        "currency": "SAR",
+        "includes": "Includes accommodation, transportation and activities"
+    },
+    "summary": {
+        "title": "Trip Summary",
+        "badge": "Summary",
+        "selectedDestination": "Selected Destination",
+        "duration": "Duration",
+        "travelers": "Number of Travelers",
+        "tripType": "Trip Type",
+        "totalCost": "Estimated Total Cost",
+        "createPlan": "Create Trip Plan",
+        "note": "You can modify the plan anytime after creation",
+        "placeholders": {
+            "destination": "Dubai, Riyadh",
+            "duration": "5 days",
+            "travelers": "2 travelers",
+            "tripType": "Standard"
+        }
+    }
+}

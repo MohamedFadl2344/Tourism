@@ -1,0 +1,18 @@
+export const PATHS = {
+    HOME: '/',
+    TOURISM: '/destinations',
+    EVENTS: '/events',
+    CULTURE: '/culture-heritage',
+    TRIP_PLANNING: '/trip-planning',
+    CONTACT: '/contact',
+    LOGIN: '/login',
+    REGISTER: '/register',
+    PRIVACY: '/privacy-policy',
+    TERMS: '/terms-conditions',
+    BLOG: '/blog',
+    FAQ: '/faq',
+    HELP_CENTER: '/help-center',
+    ABOUT: '/about',
+    DESTINATIONS: '/destinations',
+    ACTIVITIES: '/activities',
+} as const;

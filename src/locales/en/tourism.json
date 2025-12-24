@@ -1,0 +1,92 @@
+{
+    "hero": {
+        "badge": "Explore the Best Destinations",
+        "title": "Most Beautiful",
+        "titleHighlight": "Tourist Destinations",
+        "subtitle": "From exciting safari trips to distinctive heritage arts, choose your favorite destination in the heart of the Gulf"
+    },
+    "filters": {
+        "tripType": {
+            "label": "Trip Type",
+            "placeholder": "Select trip type",
+            "options": {
+                "adventure": "Adventures",
+                "cultural": "Cultural",
+                "relaxation": "Relaxation",
+                "family": "Family"
+            }
+        },
+        "budget": {
+            "label": "Budget",
+            "placeholder": "Select budget",
+            "options": {
+                "low": "Less than 500 SAR",
+                "medium": "500 - 1,500 SAR",
+                "high": "More than 1,500 SAR"
+            }
+        },
+        "people": {
+            "label": "Number of People",
+            "placeholder": "Select number of people",
+            "options": {
+                "one": "One person",
+                "two": "Two people",
+                "group": "3-5 people",
+                "large": "More than 6"
+            }
+        },
+        "accommodation": {
+            "label": "Accommodation Type",
+            "placeholder": "Select accommodation type",
+            "options": {
+                "hotel": "Hotel",
+                "resort": "Resort",
+                "apartment": "Apartment",
+                "camp": "Camp"
+            }
+        },
+        "searchButton": "Filter Results"
+    },
+    "grid": {
+        "showing": "Showing",
+        "available": "available destinations",
+        "viewMore": "View More Destinations"
+    },
+    "card": {
+        "explore": "Explore",
+        "priceFrom": "Price starts from",
+        "currency": "SAR",
+        "badges": {
+            "popular": "Most Popular",
+            "adventure": "Adventure",
+            "cultural": "Cultural",
+            "new": "New"
+        }
+    },
+    "destinations": {
+        "riyadh": {
+            "name": "Riyadh",
+            "description": "Enjoy a historical tour in the vibrant heart of the Kingdom, and discover traditional markets and modern landmarks."
+        },
+        "dubai": {
+            "name": "Dubai",
+            "description": "A global destination for shopping and entertainment, explore skyscrapers, golden beaches, and luxurious experiences."
+        },
+        "doha": {
+            "name": "Doha",
+            "description": "Where heritage meets modernity, a unique cultural experience with world-class museums and traditional markets."
+        },
+        "muscat": {
+            "name": "Muscat",
+            "description": "The serene jewel of the Gulf, enjoy the enchanting natural beauty and authentic Omani heritage."
+        },
+        "manama": {
+            "name": "Manama",
+            "description": "Discover the ancient history and modern life in Bahrain's vibrant capital."
+        },
+        "desert": {
+            "name": "Desert",
+            "description": "An unforgettable safari experience in the heart of the golden desert with camping under the stars."
+        }
+    }
+}

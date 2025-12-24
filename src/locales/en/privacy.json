@@ -1,0 +1,76 @@
+{
+    "hero": {
+        "badge": "Privacy Policy",
+        "title": "Privacy Policy",
+        "subtitle": "We respect your privacy and are committed to protecting your personal information. Learn how we collect and use your data and your rights."
+    },
+    "sections": {
+        "collection": {
+            "title": "Information We Collect",
+            "content": "In our privacy policy, we explain the information we collect from you while using the site. This information includes personal data, usage information, and technical data.",
+            "points": [
+                "Personal Information: Such as name, email address, phone number, and payment information when making a booking or requesting a service.",
+                "Usage Information: We collect information about how you interact with our site, including pages you visit, time spent on each page, and links you click.",
+                "Technical Information: Such as IP address, browser type, operating system used."
+            ]
+        },
+        "usage": {
+            "title": "How We Use Information",
+            "description": "We use the information we collect to improve your experience and provide our services better.",
+            "columns": {
+                "bookings": {
+                    "title": "Complete Bookings",
+                    "items": [
+                        "Execute bookings and orders you submit through the site.",
+                        "Send booking confirmations and notifications."
+                    ]
+                },
+                "communication": {
+                    "title": "Communication",
+                    "items": [
+                        "Respond to your inquiries and support requests.",
+                        "Send updates about our services and special offers."
+                    ]
+                },
+                "improvement": {
+                    "title": "Improvement and Development",
+                    "items": [
+                        "Analyze usage data to improve the site.",
+                        "Develop new features based on user needs."
+                    ]
+                }
+            }
+        },
+        "protection": {
+            "title": "Data Protection and Sharing",
+            "content": "We take the security of your data seriously. We use modern encryption technologies to protect your personal information from unauthorized access, disclosure, modification, or destruction.",
+            "points": [
+                "We do not share your personal information with third parties except in specified cases.",
+                "We retain your information as long as necessary to provide our services or as required by law."
+            ]
+        },
+        "rights": {
+            "title": "Your Rights",
+            "content": "You have the right to access, correct, or delete your personal data.",
+            "items": [
+                {
+                    "label": "Data Access",
+                    "desc": "You can request a copy of your personal information."
+                },
+                {
+                    "label": "Data Correction",
+                    "desc": "You can request correction of any inaccurate information."
+                },
+                {
+                    "label": "Data Deletion",
+                    "desc": "You can request deletion of your personal data under certain circumstances."
+                }
+            ]
+        }
+    },
+    "contact": {
+        "title": "Have More Questions?",
+        "description": "We are here to help. Please contact us via email or phone for more information.",
+        "button": "Contact Privacy Team"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "hero": {
+        "badge": "About Us",
+        "title": "Cradle of Civilizations and Destination of",
+        "titleHighlight": "the Future",
+        "subtitle": "We combine authenticity and modernity to provide you with an unforgettable tourism experience in the heart of the Arabian Gulf"
+    },
+    "mission": {
+        "badge": "Our Mission and Vision",
+        "title": "An exceptional region that combines",
+        "titleBreak": "authenticity and modernity",
+        "description": "We strive to provide a unique tourism experience that combines the glory of history with the splendor of the present. We believe that the Arabian Gulf embraces priceless treasures of heritage and culture, and we work to present them to the world in a modern and distinctive style befitting their prestigious status.",
+        "stats": {
+            "clients": {
+                "number": "+50,000",
+                "label": "Happy Clients"
+            },
+            "destinations": {
+                "number": "+100",
+                "label": "Tourist Destinations"
+            }
+        }
+    },
+    "values": {
+        "badge": "Our Values",
+        "title": "Geography and History of the Region",
+        "subtitle": "We believe in a set of core values that guide our work and ensure the delivery of the best services",
+        "items": [
+            {
+                "title": "Cultural Respect",
+                "description": "We respect and appreciate the rich cultural heritage of the region and work to preserve and present it in the best way."
+            },
+            {
+                "title": "Excellence and Quality",
+                "description": "We are committed to providing high-quality services that exceed our customers' expectations in every tourism experience."
+            },
+            {
+                "title": "Safety and Trust",
+                "description": "We put the safety and security of our customers first and provide a safe and reliable environment for all their trips."
+            }
+        ]
+    },
+    "whyChoose": {
+        "badge": "Why Choose Us",
+        "title": "Turning Hospitality into",
+        "titleHighlight": "a Lifestyle",
+        "reasons": [
+            "Extensive experience in Gulf tourism",
+            "Professional and specialized team",
+            "Competitive and affordable prices"
+        ]
+    },
+    "whyGulf": {
+        "badge": "See the Beauty of the Gulf",
+        "title": "Why Visit the Gulf?",
+        "paragraph1": "The Arabian Gulf is a unique region that combines the glorious past with the prosperous present. From golden deserts to modern skyscrapers, and from traditional souks to international shopping centers, the region offers an unparalleled experience.",
+        "paragraph2": "Discover authentic Arabian hospitality, taste delicious cuisine, and enjoy diverse cultural and entertainment events that make every visit an unforgettable memory."
+    },
+    "destinations": {
+        "badge": "Featured Destinations",
+        "title": "Why Visit the Gulf?",
+        "viewAll": "View All Destinations",
+        "discoverMore": "Discover More",
+        "cities": [
+            {
+                "name": "Dubai",
+                "description": "City of the Future and Innovation"
+            },
+            {
+                "name": "Riyadh",
+                "description": "Capital of Saudi Arabia"
+            },
+            {
+                "name": "Doha",
+                "description": "Pearl of the Arabian Gulf"
+            },
+            {
+                "name": "Muscat",
+                "description": "Jewel of the Arabian Gulf"
+            }
+        ]
+    }
+}

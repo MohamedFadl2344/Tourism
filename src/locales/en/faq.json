@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "badge": "Help Center",
+        "title": "Frequently Asked Questions",
+        "subtitle": "We've compiled answers to the most frequently asked questions. Save time by finding your answer here."
+    },
+    "search": {
+        "placeholder": "Search for your question here..."
+    },
+    "faqs": [
+        {
+            "question": "What are the best times to visit Gulf countries?",
+            "answer": "The best time to visit Gulf countries is during the winter season from November to March, when the weather is moderate and suitable for outdoor activities and tourism. Temperatures range between 15-25°C, making it ideal for exploring tourist attractions, enjoying beaches, and outdoor events."
+        },
+        {
+            "question": "How do I book a trip to Gulf countries?",
+            "answer": "You can easily book your trip through our platform. Browse available destinations, choose the suitable package, and complete the booking process online. We provide secure and multiple payment options, and you'll receive booking confirmation immediately via email."
+        },
+        {
+            "question": "What information is used and how can I modify it?",
+            "answer": "We use your personal information only to complete your bookings and improve our services. You can modify your information at any time through your personal account. We are committed to protecting your privacy in accordance with our privacy policy."
+        },
+        {
+            "question": "Are there assistance services for tourists and children?",
+            "answer": "Yes, we provide special services for families and children, including family-friendly tourism programs, specialized tour guides, and safe recreational activities for children. We also provide childcare services at some partner hotels."
+        },
+        {
+            "question": "How can I book a customized tour?",
+            "answer": "You can contact our customer service team to design a customized tour that suits your needs and interests. We will work with you to create a unique tourism program that includes your preferred destinations and activities, taking into account your budget and trip duration."
+        }
+    ],
+    "contact": {
+        "title": "Didn't Find an Answer to Your Question?",
+        "description": "Don't hesitate to contact us! Our team is ready to answer any inquiries or questions you may have. We're here to help you.",
+        "options": [
+            {
+                "title": "Call Us Directly",
+                "description": "+966 123 456 789"
+            },
+            {
+                "title": "Email Us",
+                "description": "support@gulf-tourism.com"
+            },
+            {
+                "title": "Visit Our Offices",
+                "description": "Riyadh, Saudi Arabia"
+            }
+        ],
+        "form": {
+            "namePlaceholder": "Full Name",
+            "emailPlaceholder": "Email Address",
+            "messagePlaceholder": "Write your inquiry here...",
+            "submitButton": "Send Question"
+        }
+    }
+}

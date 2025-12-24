@@ -1,0 +1,84 @@
+{
+    "hero": {
+        "badge": "Discover the Roots of Civilization",
+        "title": "Authenticity of the Past",
+        "titleHighlight": "and the Fragrance of Gulf History",
+        "subtitle": "Learn about the oldest ancient civilizations, tour prestigious museums, and explore archaeological sites that tell the story of the Gulf through time"
+    },
+    "featuredSite": {
+        "badge": "Featured Site",
+        "title": "Site of the Week: Spring of",
+        "titleHighlight": "Civilizations",
+        "siteName": "Spring of Ancient Civilizations",
+        "description": "Visit an archaeological site dating back thousands of years, where you can see the remains of ancient civilizations and learn about the region's rich history. The site includes an interactive museum and specialized guides to enrich your experience.",
+        "badge2": "New This Week",
+        "info": {
+            "location": {
+                "label": "Location",
+                "value": "AlUla, Saudi Arabia"
+            },
+            "duration": {
+                "label": "Visit Duration",
+                "value": "3-4 hours"
+            },
+            "suitableFor": {
+                "label": "Suitable For",
+                "value": "Families and Individuals"
+            }
+        },
+        "cta": "Explore the Site Now"
+    },
+    "traditions": {
+        "badge": "Customs and Traditions",
+        "title": "Customs and Traditions",
+        "titleHighlight": "Authentic",
+        "items": {
+            "calligraphy": {
+                "title": "Calligraphy and Decoration Arts",
+                "description": "Discover the beauty of Arabic calligraphy and Islamic decorations that adorn mosques and historical palaces in the Gulf region.",
+                "badge": "Traditional Art"
+            },
+            "shipBuilding": {
+                "title": "Traditional Shipbuilding",
+                "description": "Learn about the traditional wooden shipbuilding (Dhow) that Gulf sailors used for centuries in their trading voyages."
+            },
+            "handicrafts": {
+                "title": "Heritage Handicrafts",
+                "description": "Explore handicrafts such as weaving, pottery, and leather industries that reflect the skill of Gulf craftsmen.",
+                "badge": "Handicrafts"
+            }
+        },
+        "cta": "Discover More"
+    },
+    "arts": {
+        "badge": "Arts and Crafts",
+        "title": "Arts and Crafts",
+        "titleHighlight": "Handmade",
+        "items": {
+            "museums": {
+                "title": "Art Museums",
+                "description": "Visit the finest art museums showcasing fine and contemporary arts."
+            },
+            "exhibitions": {
+                "title": "Art Exhibitions",
+                "description": "Enjoy diverse art exhibitions that combine authenticity and modernity."
+            },
+            "culturalCenters": {
+                "title": "Cultural Centers",
+                "description": "Discover cultural centers offering workshops and artistic events."
+            },
+            "traditionalArts": {
+                "title": "Traditional Arts",
+                "description": "Learn about folk arts and Gulf heritage music."
+            }
+        }
+    },
+    "cta": {
+        "title": "Would you like to",
+        "titleHighlight": "experience the cultural journey",
+        "titleEnd": "yourself?",
+        "description": "Book your cultural tour now and enjoy a unique experience that takes you on a journey through time to discover the heritage and culture of the Arabian Gulf.",
+        "bookNow": "Book Your Tour Now",
+        "learnMore": "Learn More"
+    }
+}

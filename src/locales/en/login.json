@@ -1,0 +1,27 @@
+{
+    "header": {
+        "title": "Welcome Back",
+        "subtitle": "Please enter your credentials to login"
+    },
+    "form": {
+        "email": {
+            "label": "Email / Username",
+            "placeholder": "name@example.com"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "••••••••"
+        },
+        "remember": "Remember me",
+        "forgotPassword": "Forgot password?",
+        "submit": "Login",
+        "divider": "Or login with",
+        "noAccount": "Don't have an account?",
+        "createAccount": "Create new account"
+    },
+    "hero": {
+        "title": "Discover the Beauty of the",
+        "titleHighlight": "Arabian Gulf",
+        "subtitle": "Join us today and enjoy a unique booking experience for the most beautiful tourist destinations and events in the region"
+    }
+}

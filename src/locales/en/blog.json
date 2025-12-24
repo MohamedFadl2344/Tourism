@@ -1,0 +1,83 @@
+{
+    "hero": {
+        "badge": "Gulf Tourism Blog",
+        "title": "Travel Blog",
+        "subtitle": "Discover the latest articles and tips about travel and tourism in the Arabian Gulf region"
+    },
+    "featured": {
+        "badge": "Featured Article",
+        "date": "December 15, 2024",
+        "title": "Your Complete Guide to an Unforgettable Journey in the Empty Quarter Desert",
+        "excerpt": "Discover the beauty of the Arabian Desert and learn about the best times to visit, available activities, and essential travel tips for a safe and enjoyable desert trip in the heart of the Arabian Peninsula.",
+        "author": {
+            "name": "Mohammed Al-Saeed",
+            "role": "Travel Writer",
+            "initials": "M.S"
+        },
+        "readMore": "Read More"
+    },
+    "filters": {
+        "searchPlaceholder": "Search for articles...",
+        "categories": {
+            "all": "All",
+            "destinations": "Destinations",
+            "culture": "Culture & Heritage",
+            "tips": "Travel Tips",
+            "adventures": "Adventures"
+        }
+    },
+    "posts": [
+        {
+            "category": "Destinations",
+            "title": "Exploring the Stunning Coastal Beauty of Jeddah: Your Complete Guide",
+            "excerpt": "Discover the most beautiful beaches and tourist attractions in Jeddah, from the New Corniche to the Historic District.",
+            "author": "Ahmed Ali",
+            "date": "December 12, 2024"
+        },
+        {
+            "category": "Culture & Heritage",
+            "title": "Secrets of Saudi Heritage in AlUla: A Journey Through History",
+            "excerpt": "Discover ancient civilizations and stunning archaeological sites in the historic city of AlUla.",
+            "author": "Fatima Mohammed",
+            "date": "December 10, 2024"
+        },
+        {
+            "category": "Destinations",
+            "title": "The Beating Heart of Dubai: A Journey to the Future in the City of Modernity",
+            "excerpt": "A comprehensive tour of Dubai's most prominent landmarks from Burj Khalifa to Palm Jumeirah and traditional souks.",
+            "author": "Khaled Al-Saeed",
+            "date": "December 8, 2024"
+        },
+        {
+            "category": "Travel Tips",
+            "title": "Air Travel Tips: How to Make Your Journey More Comfortable",
+            "excerpt": "A comprehensive guide to air travel preparations, from booking tickets to tips during the flight.",
+            "author": "Sarah Ahmed",
+            "date": "December 5, 2024"
+        },
+        {
+            "category": "Destinations",
+            "title": "An Unforgettable Sea Tour in the Arabian Gulf",
+            "excerpt": "Learn about the best sea cruises and water activities in the Arabian Gulf region.",
+            "author": "Omar Hassan",
+            "date": "December 3, 2024"
+        },
+        {
+            "category": "Adventures",
+            "title": "Modern Architectural Arts: A Journey Among Skyscrapers",
+            "excerpt": "Explore the masterpieces of modern architecture in Gulf cities and learn about the most distinctive buildings.",
+            "author": "Layla Abdullah",
+            "date": "December 1, 2024"
+        }
+    ],
+    "card": {
+        "readTime": "min read",
+        "readMore": "Read More"
+    },
+    "newsletter": {
+        "title": "Subscribe to Our Weekly Newsletter",
+        "subtitle": "Get the latest articles and travel tips directly to your email every week",
+        "emailPlaceholder": "Enter your email",
+        "subscribeButton": "Subscribe Now"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "header": {
+        "title": "Create New Account",
+        "subtitle": "Enter your details to register and join us"
+    },
+    "form": {
+        "name": {
+            "label": "Username",
+            "placeholder": "Example: Ahmed Mohamed"
+        },
+        "email": {
+            "label": "Email Address",
+            "placeholder": "name@example.com"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "••••••••"
+        },
+        "confirmPassword": {
+            "label": "Confirm Password",
+            "placeholder": "••••••••"
+        },
+        "agree": "I agree to the terms and conditions",
+        "submit": "Create Account",
+        "divider": "Or register with",
+        "hasAccount": "Already have an account?",
+        "login": "Login"
+    },
+    "hero": {
+        "title": "Start Your Journey With Us",
+        "subtitle": "Open your account now to access exclusive offers and customize your travel experience in the Arabian Gulf"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "hero": {
+        "badge": "We're Here to Help",
+        "title": "Contact",
+        "titleHighlight": "Us",
+        "subtitle": "Have a question or need assistance? Our team is ready to answer all your questions and inquiries"
+    },
+    "contactSection": {
+        "form": {
+            "title": "Send Us a",
+            "titleHighlight": "Message",
+            "subtitle": "Fill out the form below and we'll get back to you as soon as possible",
+            "name": {
+                "label": "Full Name",
+                "placeholder": "Enter your name"
+            },
+            "email": {
+                "label": "Email Address",
+                "placeholder": "example@email.com"
+            },
+            "subject": {
+                "label": "Subject",
+                "placeholder": "Choose message subject",
+                "options": {
+                    "general": "General Inquiry",
+                    "booking": "Trip Booking",
+                    "support": "Technical Support",
+                    "complaint": "Complaint",
+                    "suggestion": "Suggestion"
+                }
+            },
+            "message": {
+                "label": "Message",
+                "placeholder": "Write your message here..."
+            },
+            "submit": "Send Message"
+        },
+        "info": {
+            "title": "Contact",
+            "titleHighlight": "Information",
+            "subtitle": "You can reach us through any of the following methods or visit us directly, we are always at your service and look forward to helping you",
+            "address": {
+                "title": "Main Address",
+                "line1": "King Fahd Street, Al Sulaymaniyah District",
+                "line2": "Riyadh, Kingdom of Saudi Arabia"
+            },
+            "phone": {
+                "title": "Contact Numbers",
+                "line1": "+966 12 345 6789",
+                "line2": "+966 00 000 0000"
+            },
+            "email": {
+                "title": "Email Address",
+                "line1": "info@gulf-tourism.com",
+                "line2": "support@gulf-tourism.com"
+            }
+        }
+    },
+    "social": {
+        "title": "Follow",
+        "titleHighlight": "Us",
+        "subtitle": "Stay updated with the latest offers and news"
+    },
+    "faq": {
+        "title": "Frequently Asked",
+        "titleHighlight": "Questions",
+        "subtitle": "Have questions? Here are some of the most frequently asked questions and their answers",
+        "questions": {
+            "q1": {
+                "question": "How can I book a tourist trip?",
+                "answer": "You can easily book your trip through our website or contact us directly via phone or email. Our team is ready to help you choose the right destination and organize all the details."
+            },
+            "q2": {
+                "question": "What payment methods are available?",
+                "answer": "We offer several secure payment methods including credit cards (Visa, Mastercard), bank transfer, and cash on delivery in some cases."
+            },
+            "q3": {
+                "question": "Can I cancel or modify my booking?",
+                "answer": "Yes, you can cancel or modify your booking according to our cancellation policy. Please review the booking terms or contact our support team for assistance."
+            },
+            "q4": {
+                "question": "Do you offer group or family packages?",
+                "answer": "Absolutely! We offer special packages for groups and families at competitive prices. Contact us to get a customized offer that suits your needs."
+            }
+        },
+        "notFound": "Didn't find an answer to your question?",
+        "contactSupport": "Contact Technical Support"
+    }
+}

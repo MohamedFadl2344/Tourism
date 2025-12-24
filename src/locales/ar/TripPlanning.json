@@ -1,0 +1,99 @@
+{
+    "hero": {
+        "badge": "رحلة أحلامك تبدأ من هنا",
+        "title": "صمم رحلتك",
+        "titleHighlight": "المثالية",
+        "subtitle": "حدد وجهاتك المفضلة، واختر تواريخ السفر، واستمتع بتجربة سياحية مخصصة تناسب جميع احتياجاتك ورغباتك"
+    },
+    "destinationSelector": {
+        "step": "1",
+        "title": "اختر الوجهة",
+        "subtitle": "اختر المدن والأماكن المفضلة",
+        "destinations": {
+            "dubai": {
+                "name": "دبي",
+                "type": "المدينة"
+            },
+            "riyadh": {
+                "name": "الرياض",
+                "type": "المدينة"
+            },
+            "doha": {
+                "name": "الدوحة",
+                "type": "المدينة"
+            },
+            "muscat": {
+                "name": "مسقط",
+                "type": "المدينة"
+            },
+            "kuwait": {
+                "name": "الكويت",
+                "type": "الخليج"
+            },
+            "desert": {
+                "name": "الصحراء",
+                "type": "الطبيعة"
+            }
+        }
+    },
+    "tripDetails": {
+        "step": "2",
+        "title": "متى تريد السفر؟",
+        "subtitle": "حدد تاريخ بداية ونهاية المسافرين",
+        "startDate": {
+            "label": "تاريخ الوصول",
+            "placeholder": "mm/dd/yyyy"
+        },
+        "endDate": {
+            "label": "تاريخ المغادرة",
+            "placeholder": "mm/dd/yyyy"
+        },
+        "travelers": {
+            "label": "عدد المسافرين",
+            "note": "الحد الأدنى للمسافرين والأطفال"
+        }
+    },
+    "interests": {
+        "step": "3",
+        "title": "اهتماماتك",
+        "subtitle": "ما الذي تحب أن تفعله في رحلتك؟",
+        "items": {
+            "shopping": "تسوق وأسواق",
+            "tours": "جولات وجبال",
+            "museums": "متاحف ومعارض",
+            "beaches": "شواطئ وبحار",
+            "heritage": "تراث ثقافة",
+            "entertainment": "ترفيه ومتعة"
+        }
+    },
+    "budget": {
+        "step": "4",
+        "title": "مستوى الميزانية",
+        "subtitle": "اختر مستوى الإنفاق المناسب",
+        "types": {
+            "economy": "اقتصادي",
+            "standard": "متوسط",
+            "luxury": "فاخر"
+        },
+        "estimatedBudget": "الميزانية المقدرة للشخص",
+        "currency": "ر.س",
+        "includes": "يشمل الإقامة والمواصلات والأنشطة"
+    },
+    "summary": {
+        "title": "ملخص الرحلة",
+        "badge": "ملخص",
+        "selectedDestination": "الوجهة المختارة",
+        "duration": "المدة",
+        "travelers": "عدد المسافرين",
+        "tripType": "نوع الرحلة",
+        "totalCost": "التكلفة الإجمالية المقدرة",
+        "createPlan": "إنشاء خطة الرحلة",
+        "note": "يمكنك تعديل الخطة في أي وقت بعد إنشائها",
+        "placeholders": {
+            "destination": "دبي، الرياض",
+            "duration": "5 أيام",
+            "travelers": "2 مسافر",
+            "tripType": "متوسط"
+        }
+    }
+}
