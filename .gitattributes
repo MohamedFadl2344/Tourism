@@ -1,8 +1,0 @@
-# Compression Configuration
-# This file ensures better compression for text-based assets
-
-*.js text eol=lf
-*.css text eol=lf
-*.html text eol=lf
-*.json text eol=lf
-*.svg text eol=lf
