@@ -7,9 +7,7 @@ export default function PrivacyContent() {
     return (
         <div className="bg-[#0c0a09] py-12">
             <div className="layout-container mx-auto max-w-[900px] px-4 md:px-10">
-                {/* Main Card */}
                 <div className="bg-[#1a1614] rounded-2xl border border-white/5 p-6 md:p-10">
-                    {/* Section 1: Information Collection */}
                     <div>
                         <div className="flex items-start gap-3 mb-4">
                             <div className="size-10 rounded-lg bg-[#D4AF37]/10 flex items-center justify-center text-[#D4AF37] flex-shrink-0">
@@ -35,7 +33,6 @@ export default function PrivacyContent() {
                         </ul>
                     </div>
 
-                    {/* Section 2: Usage */}
                     <div className="mt-10">
                         <div className="flex items-start gap-3 mb-4">
                             <div className="size-10 rounded-lg bg-[#D4AF37]/10 flex items-center justify-center text-[#D4AF37] flex-shrink-0">
@@ -79,7 +76,6 @@ export default function PrivacyContent() {
                         </div>
                     </div>
 
-                    {/* Section 3: Protection */}
                     <div className="mt-10">
                         <div className="flex items-start gap-3 mb-4">
                             <div className="size-10 rounded-lg bg-[#D4AF37]/10 flex items-center justify-center text-[#D4AF37] flex-shrink-0">
@@ -105,7 +101,6 @@ export default function PrivacyContent() {
                         </ul>
                     </div>
 
-                    {/* Section 4: Rights */}
                     <div className="mt-10">
                         <div className="flex items-start gap-3 mb-4">
                             <div className="size-10 rounded-lg bg-[#D4AF37]/10 flex items-center justify-center text-[#D4AF37] flex-shrink-0">
@@ -133,7 +128,6 @@ export default function PrivacyContent() {
                         </div>
                     </div>
 
-                    {/* Contact Section */}
                     <div className="mt-10 pt-8 border-t border-white/5">
                         <div className="flex items-start gap-3 mb-4">
                             <div className="size-10 rounded-lg bg-[#D4AF37]/10 flex items-center justify-center text-[#D4AF37] flex-shrink-0">

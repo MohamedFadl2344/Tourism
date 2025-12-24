@@ -37,7 +37,6 @@ export default function HelpCategories() {
     return (
         <div className="bg-[#0c0a09] py-12">
             <div className="layout-container mx-auto max-w-[1200px] px-4 md:px-10">
-                {/* Section Title */}
                 <motion.div
                     ref={header.ref}
                     variants={header.variants}
@@ -53,7 +52,6 @@ export default function HelpCategories() {
                     </p>
                 </motion.div>
 
-                {/* Categories Grid */}
                 <motion.div
                     ref={cards.ref}
                     variants={cards.containerVariants}
