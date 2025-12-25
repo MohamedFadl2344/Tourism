@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { FaPlane, FaTimes } from 'react-icons/fa';
 import { PATHS } from '../../../routes/paths';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -56,15 +57,15 @@ export default function MobileSidebar({ isOpen, onClose }: MobileSidebarProps) {
                 {/* Navigation Links */}
                 <nav className="flex flex-col p-6 gap-2">
                     {navItems.map((item, index) => (
-                        <a
+                        <Link
                             key={item.path}
-                            href={item.path}
+                            to={item.path}
                             onClick={onClose}
                             className={`text-white hover:text-[#D4AF37] hover:bg-white/5 px-4 py-3 rounded-lg transition-all duration-300 text-base font-medium ${index === 0 ? 'bg-white/5' : ''
                                 }`}
                         >
                             {item.label}
-                        </a>
+                        </Link>
                     ))}
                 </nav>
 

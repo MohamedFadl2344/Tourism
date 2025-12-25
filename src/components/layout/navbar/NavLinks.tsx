@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { PATHS } from '../../../routes/paths';
 
 export default function NavLinks() {
@@ -15,14 +16,14 @@ export default function NavLinks() {
     return (
         <nav className="hidden md:flex flex-1 justify-center gap-8">
             {navItems.map((item, index) => (
-                <a
+                <Link
                     key={item.path}
-                    href={item.path}
+                    to={item.path}
                     className={`text-sm font-medium transition-colors ${index === 0 ? 'text-white' : 'text-white/80'
                         } hover:text-[#D4AF37]`}
                 >
                     {item.label}
-                </a>
+                </Link>
             ))}
         </nav>
     );
