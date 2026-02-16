@@ -22,9 +22,9 @@ export default function EventsFilters() {
                                     value={searchQuery}
                                     onChange={(e) => setSearchQuery(e.target.value)}
                                     placeholder={t('filters.search.placeholder')}
-                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pr-11 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-[#b45309]/50 transition"
+                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pe-11 text-white text-sm placeholder:text-gray-500 focus:outline-none focus:border-[#b45309]/50 transition"
                                 />
-                                <FaSearch className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" />
+                                <FaSearch className="absolute end-4 top-1/2 -translate-y-1/2 text-gray-400" />
                             </div>
                         </div>
 
@@ -35,7 +35,7 @@ export default function EventsFilters() {
                                 <select
                                     value={location}
                                     onChange={(e) => setLocation(e.target.value)}
-                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pr-11 text-white text-sm appearance-none cursor-pointer focus:outline-none focus:border-[#b45309]/50 transition"
+                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pe-11 text-white text-sm appearance-none cursor-pointer focus:outline-none focus:border-[#b45309]/50 transition"
                                 >
                                     <option value="">{t('filters.location.placeholder')}</option>
                                     <option value="riyadh">{t('filters.location.options.riyadh')}</option>
@@ -43,7 +43,7 @@ export default function EventsFilters() {
                                     <option value="doha">{t('filters.location.options.doha')}</option>
                                     <option value="muscat">{t('filters.location.options.muscat')}</option>
                                 </select>
-                                <FaMapMarkerAlt className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                                <FaMapMarkerAlt className="absolute end-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
                             </div>
                         </div>
 
@@ -54,7 +54,7 @@ export default function EventsFilters() {
                                 <select
                                     value={date}
                                     onChange={(e) => setDate(e.target.value)}
-                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pr-11 text-white text-sm appearance-none cursor-pointer focus:outline-none focus:border-[#b45309]/50 transition"
+                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pe-11 text-white text-sm appearance-none cursor-pointer focus:outline-none focus:border-[#b45309]/50 transition"
                                 >
                                     <option value="">{t('filters.date.placeholder')}</option>
                                     <option value="today">{t('filters.date.options.today')}</option>
@@ -62,7 +62,7 @@ export default function EventsFilters() {
                                     <option value="month">{t('filters.date.options.month')}</option>
                                     <option value="upcoming">{t('filters.date.options.upcoming')}</option>
                                 </select>
-                                <FaCalendarAlt className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                                <FaCalendarAlt className="absolute end-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
                             </div>
                         </div>
 

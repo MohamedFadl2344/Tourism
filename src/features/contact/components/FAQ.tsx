@@ -28,9 +28,9 @@ export default function FAQ() {
                         >
                             <button
                                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                                className="w-full flex items-center justify-between p-5 text-right"
+                                className="w-full flex items-center justify-between p-5 text-start"
                             >
-                                <h3 className="text-white font-bold text-base pr-4">
+                                <h3 className="text-white font-bold text-base pe-4">
                                     {t(`faq.questions.${key}.question`)}
                                 </h3>
                                 <FaChevronDown

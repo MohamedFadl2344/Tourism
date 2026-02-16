@@ -37,9 +37,9 @@ export default function TermsContent() {
                                     <button
                                         key={section.id}
                                         onClick={() => scrollToSection(section.id)}
-                                        className={`w-full text-right px-3 py-2 rounded-lg text-sm transition ${activeSection === section.id
-                                                ? 'bg-[#D4AF37]/10 text-[#D4AF37] font-bold'
-                                                : 'text-gray-400 hover:text-white hover:bg-white/5'
+                                        className={`w-full text-start px-3 py-2 rounded-lg text-sm transition ${activeSection === section.id
+                                            ? 'bg-[#D4AF37]/10 text-[#D4AF37] font-bold'
+                                            : 'text-gray-400 hover:text-white hover:bg-white/5'
                                             }`}
                                     >
                                         {section.number}. {t(`sections.${section.id}.title`)}

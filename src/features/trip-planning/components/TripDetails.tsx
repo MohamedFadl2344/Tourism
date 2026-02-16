@@ -32,9 +32,9 @@ export default function TripDetails() {
                                 value={startDate}
                                 onChange={(e) => setStartDate(e.target.value)}
                                 placeholder={t('tripDetails.startDate.placeholder')}
-                                className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pl-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#b45309]/50 transition"
+                                className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 ps-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#b45309]/50 transition"
                             />
-                            <FaCalendarAlt className="absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]" />
+                            <FaCalendarAlt className="absolute start-4 top-1/2 -translate-y-1/2 text-[#D4AF37]" />
                         </div>
                     </div>
 
@@ -47,9 +47,9 @@ export default function TripDetails() {
                                 value={endDate}
                                 onChange={(e) => setEndDate(e.target.value)}
                                 placeholder={t('tripDetails.endDate.placeholder')}
-                                className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pl-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#b45309]/50 transition"
+                                className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 ps-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#b45309]/50 transition"
                             />
-                            <FaCalendarAlt className="absolute left-4 top-1/2 -translate-y-1/2 text-[#D4AF37]" />
+                            <FaCalendarAlt className="absolute start-4 top-1/2 -translate-y-1/2 text-[#D4AF37]" />
                         </div>
                     </div>
                 </div>

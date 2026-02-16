@@ -15,9 +15,9 @@ export default function FaqSearch() {
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         placeholder={t('search.placeholder')}
-                        className="w-full h-14 bg-[#1a1614] border border-white/10 rounded-xl px-5 pr-14 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                        className="w-full h-14 bg-[#1a1614] border border-white/10 rounded-xl px-5 pe-14 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                     />
-                    <FaSearch className="absolute right-5 top-1/2 -translate-y-1/2 text-gray-500 text-lg" />
+                    <FaSearch className="absolute end-5 top-1/2 -translate-y-1/2 text-gray-500 text-lg" />
                 </div>
             </div>
         </div>

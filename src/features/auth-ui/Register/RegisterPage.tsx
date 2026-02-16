@@ -45,10 +45,10 @@ export default function RegisterPage() {
                                             value={formData.name}
                                             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                             placeholder={t('form.name.placeholder')}
-                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pr-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pe-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                                             required
                                         />
-                                        <FaUser className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
+                                        <FaUser className="absolute end-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
                                     </div>
                                 </div>
 
@@ -61,10 +61,10 @@ export default function RegisterPage() {
                                             value={formData.email}
                                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                             placeholder={t('form.email.placeholder')}
-                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pr-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pe-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                                             required
                                         />
-                                        <FaEnvelope className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
+                                        <FaEnvelope className="absolute end-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
                                     </div>
                                 </div>
 
@@ -77,10 +77,10 @@ export default function RegisterPage() {
                                             value={formData.password}
                                             onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                                             placeholder={t('form.password.placeholder')}
-                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pr-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pe-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                                             required
                                         />
-                                        <FaLock className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
+                                        <FaLock className="absolute end-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
                                     </div>
                                 </div>
 
@@ -93,10 +93,10 @@ export default function RegisterPage() {
                                             value={formData.confirmPassword}
                                             onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
                                             placeholder={t('form.confirmPassword.placeholder')}
-                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pr-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pe-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                                             required
                                         />
-                                        <FaCheckCircle className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
+                                        <FaCheckCircle className="absolute end-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
                                     </div>
                                 </div>
 

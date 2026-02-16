@@ -35,10 +35,10 @@ export default function RegisterForm() {
                             value={formData.name}
                             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                             placeholder="name@example.com"
-                            className="w-full h-12 bg-white/5 border border-white/10 rounded-lg px-4 pr-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                            className="w-full h-12 bg-white/5 border border-white/10 rounded-lg px-4 pe-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                             required
                         />
-                        <FaUser className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500" />
+                        <FaUser className="absolute end-4 top-1/2 -translate-y-1/2 text-gray-500" />
                     </div>
                 </div>
 
@@ -51,10 +51,10 @@ export default function RegisterForm() {
                             value={formData.password}
                             onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                             placeholder="••••••••"
-                            className="w-full h-12 bg-white/5 border border-white/10 rounded-lg px-4 pr-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                            className="w-full h-12 bg-white/5 border border-white/10 rounded-lg px-4 pe-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                             required
                         />
-                        <FaLock className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500" />
+                        <FaLock className="absolute end-4 top-1/2 -translate-y-1/2 text-gray-500" />
                     </div>
                 </div>
 

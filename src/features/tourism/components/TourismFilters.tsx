@@ -29,7 +29,7 @@ export default function TourismFilters() {
                                     <option value="relaxation">{t('filters.tripType.options.relaxation')}</option>
                                     <option value="family">{t('filters.tripType.options.family')}</option>
                                 </select>
-                                <FaChevronDown className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                                <FaChevronDown className="absolute start-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@ export default function TourismFilters() {
                                     <option value="medium">{t('filters.budget.options.medium')}</option>
                                     <option value="high">{t('filters.budget.options.high')}</option>
                                 </select>
-                                <FaChevronDown className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                                <FaChevronDown className="absolute start-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
                             </div>
                         </div>
 
@@ -66,7 +66,7 @@ export default function TourismFilters() {
                                     <option value="3-5">{t('filters.people.options.group')}</option>
                                     <option value="6+">{t('filters.people.options.large')}</option>
                                 </select>
-                                <FaChevronDown className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                                <FaChevronDown className="absolute start-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
                             </div>
                         </div>
 
@@ -85,7 +85,7 @@ export default function TourismFilters() {
                                     <option value="apartment">{t('filters.accommodation.options.apartment')}</option>
                                     <option value="camp">{t('filters.accommodation.options.camp')}</option>
                                 </select>
-                                <FaChevronDown className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                                <FaChevronDown className="absolute start-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
                             </div>
                         </div>
                     </div>

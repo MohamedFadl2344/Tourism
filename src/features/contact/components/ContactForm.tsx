@@ -38,10 +38,10 @@ export default function ContactForm() {
                                     value={formData.name}
                                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                     placeholder="أدخل اسمك"
-                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pr-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#b45309]/50 transition"
+                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pe-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#b45309]/50 transition"
                                     required
                                 />
-                                <FaUser className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500" />
+                                <FaUser className="absolute end-4 top-1/2 -translate-y-1/2 text-gray-500" />
                             </div>
                         </div>
 
@@ -54,10 +54,10 @@ export default function ContactForm() {
                                     value={formData.email}
                                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                     placeholder="example@email.com"
-                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pr-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#b45309]/50 transition"
+                                    className="w-full h-12 bg-[#0f172a] border border-white/10 rounded-lg px-4 pe-11 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#b45309]/50 transition"
                                     required
                                 />
-                                <FaEnvelope className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500" />
+                                <FaEnvelope className="absolute end-4 top-1/2 -translate-y-1/2 text-gray-500" />
                             </div>
                         </div>
 

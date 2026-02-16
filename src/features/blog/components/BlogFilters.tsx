@@ -20,9 +20,9 @@ export default function BlogFilters() {
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
                             placeholder={t('filters.searchPlaceholder')}
-                            className="w-full h-12 bg-[#1a1614] border border-white/10 rounded-xl px-4 pr-12 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                            className="w-full h-12 bg-[#1a1614] border border-white/10 rounded-xl px-4 pe-12 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                         />
-                        <FaSearch className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-500" />
+                        <FaSearch className="absolute end-4 top-1/2 -translate-y-1/2 text-gray-500" />
                     </div>
 
                     {/* Categories */}
@@ -32,8 +32,8 @@ export default function BlogFilters() {
                                 key={category}
                                 onClick={() => setActiveCategory(category)}
                                 className={`px-5 py-2.5 rounded-xl text-sm font-bold whitespace-nowrap transition ${activeCategory === category
-                                        ? 'bg-[#D4AF37] text-black'
-                                        : 'bg-[#1a1614] text-gray-400 hover:text-white border border-white/10'
+                                    ? 'bg-[#D4AF37] text-black'
+                                    : 'bg-[#1a1614] text-gray-400 hover:text-white border border-white/10'
                                     }`}
                             >
                                 {t(`filters.categories.${category}`)}

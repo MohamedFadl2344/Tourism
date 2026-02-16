@@ -53,7 +53,7 @@ export default function PopularQuestions() {
                         >
                             <button
                                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                                className="w-full flex items-center justify-between p-5 text-right hover:bg-white/5 transition"
+                                className="w-full flex items-center justify-between p-5 text-start hover:bg-white/5 transition"
                             >
                                 <span className="text-white font-bold text-base flex-1">
                                     {item.question}

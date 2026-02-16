@@ -2,7 +2,6 @@
 @import 'tailwindcss';
 
 body {
-    direction: rtl;
     overflow-x: hidden;
     font-family: 'Cairo', 'Tajawal', sans-serif;
 }

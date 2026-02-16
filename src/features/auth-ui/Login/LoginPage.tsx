@@ -43,10 +43,10 @@ export default function LoginPage() {
                                             value={formData.email}
                                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                             placeholder={t('form.email.placeholder')}
-                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pr-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pe-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                                             required
                                         />
-                                        <FaUser className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
+                                        <FaUser className="absolute end-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
                                     </div>
                                 </div>
 
@@ -59,10 +59,10 @@ export default function LoginPage() {
                                             value={formData.password}
                                             onChange={(e) => setFormData({ ...formData, password: e.target.value })}
                                             placeholder={t('form.password.placeholder')}
-                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pr-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
+                                            className="w-full h-10 bg-black/20 border border-white/10 rounded-lg px-3 pe-9 text-white text-sm placeholder:text-gray-600 focus:outline-none focus:border-[#D4AF37]/50 transition"
                                             required
                                         />
-                                        <FaLock className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
+                                        <FaLock className="absolute end-3 top-1/2 -translate-y-1/2 text-gray-500 text-xs" />
                                     </div>
                                 </div>
 

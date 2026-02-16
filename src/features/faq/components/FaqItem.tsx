@@ -15,7 +15,7 @@ export default function FaqItem({ question, answer, number, isFirst = false }: F
         <div className="bg-[#1a1614] rounded-xl border border-white/5 overflow-hidden">
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="w-full flex items-center justify-between p-5 md:p-6 text-right hover:bg-white/5 transition"
+                className="w-full flex items-center justify-between p-5 md:p-6 text-start hover:bg-white/5 transition"
             >
                 <div className="flex items-center gap-3 flex-1">
                     <span className="size-8 rounded-lg bg-[#D4AF37]/10 flex items-center justify-center text-[#D4AF37] font-bold text-sm flex-shrink-0">
@@ -25,14 +25,14 @@ export default function FaqItem({ question, answer, number, isFirst = false }: F
                         {question}
                     </h3>
                 </div>
-                <div className="text-[#D4AF37] text-lg flex-shrink-0 mr-3">
+                <div className="text-[#D4AF37] text-lg flex-shrink-0 me-3">
                     {isOpen ? <FaChevronUp /> : <FaChevronDown />}
                 </div>
             </button>
 
             {isOpen && (
                 <div className="px-5 md:px-6 pb-5 md:pb-6 pt-2">
-                    <p className="text-gray-400 text-sm leading-relaxed pr-11">
+                    <p className="text-gray-400 text-sm leading-relaxed pe-11">
                         {answer}
                     </p>
                 </div>
